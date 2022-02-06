@@ -1,0 +1,161 @@
+#title {
+    background-color: #ff4c68;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.nav-item {
+    padding: 0 20px;
+    font-size: 1.2rem;
+
+}
+.font-link {
+    font-family: "Montserrat-light";
+}
+
+#logo_Text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2rem;
+}
+#first_Title {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 4.5rem;
+    line-height: 1.5;
+    color: White;
+    margin-top: 60px;
+}
+.container-fluid {
+    padding: 1% 15% 7%;
+}
+.dog_Image {
+    transform: rotate(20deg);
+    width: 20%;
+    position: absolute;
+}
+
+body {
+    font-family: "Montserrat";
+}
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Montserrat-Black', sans-serif;
+}
+p {
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.download_Button {
+    margin: 3% 2%;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+
+.features_Images {
+    color: #ff4c68;
+    margin-bottom: 40px;
+}
+.features_Images:hover {
+    color: #FF6D84;
+}
+
+.features_Titles {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat-Black', sans-serif;
+}
+.features_Text {
+    text-align: center;
+    font-weight: bold;
+    padding: 5%;
+}
+
+@media (max-width: 992px) {
+
+    .dog_Image {
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+
+
+#testimonials {
+    background-color: #ff4c68; 
+    color: white;  
+    text-align: center;
+}
+.testimonial_title {
+    font-size: 3.5rem;
+    font-family: "Montserrat-Black", sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.testimonial_Image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press {
+    padding: 4% 15%;
+    background-color: #ff4c68; 
+    color: white;  
+    text-align: center;
+}
+.press_Logos {
+    width: 15%;
+    margin: 20px 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+#pricing {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.pricing_Cards {
+    margin-top: 80px;
+}
+
+
+.col_Pricing {
+    padding: 3% 2%;
+}
+.card_Title {
+    font-weight: bold;
+}
+#cta {
+    background-color:#ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.call_Title {
+    font-family: 'Montserrat-Black', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+#footer {
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact_Info {
+    margin: auto 5px;
+}
